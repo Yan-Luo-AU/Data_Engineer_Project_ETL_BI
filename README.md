@@ -15,10 +15,11 @@
 - Data Enrichment & Centralisation
    - User behaviour/Funnel data from external sources that is semi-structured can be stored in S3 (data lake)
    - use AWs Glue Crawler and Athena to read and query the data
-   - the AWS Glue Crawker read the time stamp column into string formate so a Glue job in pySpark is used to convert it into timestamp and also partition the timestamp into year and month
+   - the AWS Glue Crawler read the timestamp  column into string format so a Glue job in pySpark is used to convert it into timestamp and also partition the timestamp into year and month
    - Add a Lambda function to trigger the Glue job so when the data arrives in S3 the ETL process can be triggered.
    - Imported the external data into Redshift
-      - method1: create external schema from data catelog
+      - method1: create external schema from data catalog
       - method2: create external schema directly from s3
-   - External data can be joined with ineternal data in Redshift
+   - External data can be joined with internal data in Redshift
+- Connect Redshift to Tableau for data visualization and BI
   
