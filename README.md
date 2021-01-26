@@ -15,5 +15,5 @@
 - Data Enrichment & Centralisation
    - User behaviour/Funnel data from external sources that is semi-structured can be stored in S3 (data lake)
    - use AWs Glue Crawler and Athena to read and query the data
-   - 
+   - the AWS Glue Crawker read the time stamp column into string formate so a Glue job in pySpark is used to convert it into timestamp and also partition the timestamp into year and month
   
