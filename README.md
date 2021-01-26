@@ -3,7 +3,6 @@
   - Connect DB client DBeaver to the transactional database on RDS<br>
   - Create tables and load data using DBeaver<br>
   - Data source: https://www.kaggle.com/olistbr/brazilian-ecommerce<br>
-- Data Modelling: design data schema for Data Warehouse<br>
 - Create a Data Warehouse in Redshift, and connect it to DBeaver<br>
 - AWS DataPipeline: one-time load historical data into Redshift tables using copy command<br>
 - AWS Glue: incremental data loads into Redshift <br>
